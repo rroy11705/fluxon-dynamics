@@ -1,6 +1,5 @@
 // File path: src/components/layout/Footer.tsx
 import Link from 'next/link';
-import { SocialLinks } from '../common/SocialLinks';
 
 export const Footer = () => {
   // TODO: Fetch global settings for footer content
@@ -100,14 +99,6 @@ export const Footer = () => {
             {/* TODO: Contact info from CMS */}
             <p className="mb-2">email@example.com</p>
             <p className="mb-4">(123) 456-7890</p>
-            <SocialLinks
-              // TODO: Add SocialLinks props from CMS
-              links={[
-                { platform: 'LinkedIn', url: '#' },
-                { platform: 'Twitter', url: '#' },
-                { platform: 'GitHub', url: '#' },
-              ]}
-            />
           </div>
         </div>
 

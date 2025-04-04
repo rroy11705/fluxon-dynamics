@@ -1,6 +1,5 @@
 // File path: src/components/blog/BlogCard.tsx
 import Link from 'next/link';
-import Image from 'next/image';
 import { formatDate } from '@/lib/formatDate';
 
 type BlogCardProps = {
